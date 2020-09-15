@@ -5,5 +5,8 @@ def badge_maker (name)
 end 
 
 def batch_badge_creator (folks)
-  
+  badge_names = []
+  folks.each do |person|
+    badge_maker (person)
+end
 end
