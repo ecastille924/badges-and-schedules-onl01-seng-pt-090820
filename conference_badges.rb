@@ -9,7 +9,7 @@ end
 end
 
 def assign_rooms (people)
-  people.map do |person|
-    
+  people.map.with_index do |person, index|
+    "Hello, #{person}! You'll be assigned to room #{index}!"
   end 
 end
