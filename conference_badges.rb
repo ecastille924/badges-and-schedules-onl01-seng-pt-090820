@@ -7,3 +7,9 @@ def batch_badge_creator (people)
   badge_maker(person)
 end
 end
+
+def assign_rooms (people)
+  people.map do |person|
+    
+  end 
+end
